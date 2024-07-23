@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>游戏天地-崩坏：星穹铁道-人物介绍</title>
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" >
+<script src="../bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/pages.js"></script> <!--pages.js中包括必要的Javascript代码-->
+<link rel="stylesheet" href="../css/main.css"> <!--main.css中包括网站通用的CSS代码-->
+<link rel="stylesheet" href="../css/pages.css"> <!--pages.css中包括修饰具体页面用的CSS代码-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--主导航-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="../index.html"><img class="logo-responsive w3-animate-top" src="../images/logo.jpg" width="75px" height="75px" alt="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse w3-animate-top" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item"> <a class="nav-link text-light" href="gs_home.html">原神</a> </li>    
+	  <li class="nav-item" id="current"> <a class="nav-link text-light" href="hsr_home.html">崩坏：星穹铁道</a> </li>       
+    </ul>
+  </div>
+ </nav>
+<!--面包屑&二级导航-->
+<div class="container-fluid padding w3-animate-left" id="bread">
+	<a href="../index.html">首页</a> &gt; <a href="hsr_home.html">崩坏：星穹铁道</a> &gt; <span id="second-nav"><a href="map_heita.html"><button>场景介绍</button></a> | <button><strong>人物介绍</strong></button> </span>
+</div>
+<div class="container w3-animate-zoom" id="page-nav">         
+  <ul class="pagination">
+    <li class="page-item disabled"><a class="page-link" href="#"> &lt; </a></li>
+    <li class="page-item disabled current"><a class="page-link" href="clara.html">物理</a></li>
+	<li class="page-item"><a class="page-link" href="sliverwolf.html">量子</a></li>
+    <li class="page-item"><a class="page-link" href="luocha.html">虚数</a></li>
+    <li class="page-item"><a class="page-link" href="sliverwolf.html"> &gt; </a></li>
+  </ul>
+</div>
+<!--页面主体内容-->
+<div class="w3-animate-left">
+<H1> 「史瓦罗先生他…他是克拉拉的家人。」</H1>
+</div>
+<div class="container-fluid w3-animate-bottom">
+	<div class="row">
+		<div class="col-lg-6"> <!--左边列为折叠栏accordion-->
+		<div id="accordion">
+    	<div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne"> <b>角色故事</b> </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">   <p class="card-text m-0">被机器人养大的女孩，有着超越年龄的通透和坚持。</p> <!--Bootstrap类m-0用于消除margin-->
+　　<p class="card-text m-0">对克拉拉而言，史瓦罗理性的计算是世界法则，绝不会出错。</p>
+　　<p class="card-text m-0">直到发现「计算」得到的结果，并不一定能带给大家幸福。</p>
+    <p class="card-text m-0">怯生生的女孩决定勇敢起来.</p>    </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"><b>行迹</b></a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body-dark">  
+		  <div id="skills"> <!--悬停效果-->
+			  <a href="#" onmouseover="showHide(1)"><img src="../images/clara_basic.png" id="skillimage1"><img src="../images/clara_basic_over.png" id="skillimageover1"></a>
+			  <a href="#" onmouseover="showHide(2)"><img src="../images/clara_skill.png" id="skillimage2"><img src="../images/clara_skill_over.png" id="skillimageover2"></a>
+			  <a href="#" onmouseover="showHide(3)"><img src="../images/clara_ultimate.png" id="skillimage3"><img src="../images/clara_ultimate_over.png" id="skillimageover3"></a> 
+			  <a href="#" onmouseover="showHide(4)"><img src="../images/clara_talent.png" id="skillimage4"><img src="../images/clara_talent_over.png" id="skillimageover4"></a></div>
+		<div id="skill1"><strong><big>我也想帮上忙</big></strong> [单攻]
+<p>对指定敌方单体造成少量物理属性伤害。</p></div>
+		<div id="skill2"><strong><big>史瓦罗在看着你</big></strong> [群攻]
+<p>对敌方全体造成物理属性伤害，并对所有被史瓦罗标上【反击标记】的敌方目标额外造成物理属性伤害。
+    战技施放后所有【反击标记】失效。</p></div>
+		<div id="skill3"><strong><big>是约定不是命令</big></strong> [强化]
+<p>施放终结技后克拉拉受到的伤害额外降低且被敌方目标攻击的概率大幅提高，持续2回合。
+    同时史瓦罗的反击得到强化，当任意我方目标受到攻击后史瓦罗立即施放反击，对敌方目标造成的伤害倍率提高，并对其相邻目标造成相当于主目标50%的伤害。强化效果可生效2次。</p></div>
+		<div id="skill4"><strong><big>因为我们是家人</big></strong> [单攻]
+<p>克拉拉在史瓦罗的保护下受到敌方目标攻击的伤害降低10%。攻击克拉拉的敌方目标会被史瓦罗标上【反击标记】，并遭到史瓦罗的反击，对其造成物理属性伤害。</p></div>
+		  </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree"><b>特征</b></a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">  
+                <p><b>名称 :</b>  克拉拉</p>
+                <p><b>性别 :</b>  女</p>
+                <p><b>稀有度 :</b>  五星</p>
+                <p><b>命途 :</b>  毁灭</p>
+                <p><b>战斗属性 :</b>  物理</p>
+                <p><b>阵营 :</b>  	贝洛伯格</p>
+              
+            </div>
+        </div>
+      </div>
+    </div></div>	
+          <div class="col-lg-6"> <!--右边为一个响应式图片（设置类为img-fluid）-->
+          <div class="image-right"><img src="../images/clara.png" class="img-fluid"></div>
+          </div>
+   </div>
+  </div>
+  <footer class="bg-dark text-light text-center">
+      Game World. &copy;2020
+  </footer>
+  </body>
+  </html>

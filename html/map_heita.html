@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>游戏天地-崩坏：星穹铁道-人物介绍</title>
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" >
+<script src="../bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/pages.js"></script> <!--pages.js中包括必要的Javascript代码-->
+<link rel="stylesheet" href="../css/main.css"> <!--main.css中包括网站通用的CSS代码-->
+<link rel="stylesheet" href="../css/pages.css"> <!--pages.css中包括修饰具体页面用的CSS代码-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--主导航-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="../index.html"><img class="logo-responsive w3-animate-top" src="../images/logo.jpg" width="75px" height="75px" alt="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse w3-animate-top" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item"> <a class="nav-link text-light" href="gs_home.html">原神</a> </li>    
+	  <li class="nav-item" id="current"> <a class="nav-link text-light" href="hsr_home.html">崩坏：星穹铁道</a> </li>       
+    </ul>
+  </div>
+ </nav>
+<!--面包屑&二级导航-->
+<div class="container-fluid padding w3-animate-left" id="bread">
+	<a href="../index.html">首页</a> &gt; <a href="hsr_home.html">崩坏：星穹铁道</a> &gt; <span id="second-nav"><button><strong>场景介绍</strong></button></a>
+		<button><a href="clara.html">人物介绍</button></a> 
+</div>
+<div class="container w3-animate-zoom" id="page-nav">         
+  <ul class="pagination">
+    <li class="page-item disabled"><a class="page-link" href="#"> &lt; </a></li>
+    <li class="page-item disabled current"><a class="page-link" href="#">空间站[黑塔]</a></li>
+    <li class="page-item"><a class="page-link" href="map_yaliluo.html">雅利洛-VI</a></li>
+	<li class="page-item"><a class="page-link" href="map_xianzhou.html">仙舟[罗浮]</a></li>
+    <li class="page-item"><a class="page-link" href="map_yaliluo.html"> &gt; </a></li>
+  </ul>
+</div>
+<!--页面主体内容-->
+<div class="container-fluid w3-animate-bottom">
+	<div class="row">
+		<div class="col-lg-6"> <!--左边列为折叠栏accordion-->
+		<div id="accordion">
+    	<div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne"> 空间站[黑塔]-简介 </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">   <p class="card-text m-0">为[天才俱乐部]#83黑塔私人所有。</p> <!--Bootstrap类m-0用于消除margin-->
+　　<p class="card-text m-0">站内人员构成复杂，研究者被称作[科员]，入站后会根据各自主攻方向与职能所长被分入不同的[科室]。</p>
+      </div>
+    </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">监控与防御系统</a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">   
+          <div class="image-middle" style="position:sticky;"><img src="../images/heita1.webp" class="img-fluid"></div>
+          <p class="card-text m-0">分布于主控舱段入口处与两侧。由众多监控画面组成的巨大影像屏幕，能够观测空间站外围的全景视角，分别配备障碍阻击操作台与防护投射操作台，可用于狙击不明威胁与产生反重力防护罩。</p> <!--Bootstrap类m-0用于消除margin-->   
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseThree">监察域</a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">   
+          <div class="image-middle" style="position:sticky;"><img src="../images/heita2.webp" class="img-fluid"></div>
+          <p class="card-text m-0">用于监控能源反应堆、各个舱段实时状态的设备。监察域与主控制台共同组成了主控舱段的核心区域，建立了观测、监控、防御、攻击四位一体的决策系统。</p> <!--Bootstrap类m-0用于消除margin-->   
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-lg-6"> <!--右边为一个响应式图片（设置类为img-fluid）-->
+      <div class="image-right" style="position:sticky;"><img src="../images/heita_main.webp"  width =560 height=420 class="img-fluid"></div>
+      </div>
+</div>
+ </div>
+<footer class="bg-dark text-light text-center">
+	Game World. &copy;2020
+</footer>
+</body>
+</html>
+

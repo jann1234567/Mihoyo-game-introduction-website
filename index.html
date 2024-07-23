@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>游戏天地-首页</title>
+<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" >
+<script src="./bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ .carousel-inner img { /*将轮播图的图片设置为响应式*/
+	 width: 100%; height: auto; }	
+</style>	
+</head>
+<body>
+<!--主导航-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#"><img class="logo-responsive" src="images/logo.jpg"  width="75px" height="75px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="w3-animate-top" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item"> <a class="nav-link text-light" href="./html/gs_home.html">原神</a> </li>
+      <li class="nav-item"> <a class="nav-link text-light" href="./html/hsr_home.html">崩坏：星穹铁道</a> </li>
+    </ul>
+  </div>
+ </nav>
+<!--轮播图-->
+<div class="w3-animate-bottom" >
+<div id="slides" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+	<li data-target="#slides" data-slide-to="3"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">  <a href="./html/gs_home.html"><img src="images/ys2.jpg" alt="原神"</a>   </div>
+    <div class="carousel-item">  <a href="./html/hsr_home.html"><img alt="星穹铁道" src="images/xt5.png"></a>   </div>
+    <div class="carousel-item">  <a href="./html/gs_home.html"><img alt="原神" src="./images/ys3.jpg"></a>   </div>
+	<div class="carousel-item">  <a href="./html/hsr_home.html"><img alt="星穹铁道" src="images/xt3.png"></a>   </div>
+  </div>
+  <a class="carousel-control-prev" href="#slides" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#slides" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+<footer class="bg-dark text-light text-center">
+Game World. &copy;2023 </footer>
+</body>
+</html>

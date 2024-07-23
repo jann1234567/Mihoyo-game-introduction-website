@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>游戏天地-崩坏：星穹铁道-人物介绍</title>
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" >
+<script src="../bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/pages.js"></script> <!--pages.js中包括必要的Javascript代码-->
+<link rel="stylesheet" href="../css/main.css"> <!--main.css中包括网站通用的CSS代码-->
+<link rel="stylesheet" href="../css/pages.css"> <!--pages.css中包括修饰具体页面用的CSS代码-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--主导航-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="../index.html"><img class="logo-responsive w3-animate-top" src="../images/logo.jpg" width="75px" height="75px" alt="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse w3-animate-top" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item"> <a class="nav-link text-light" href="gs_home.html">原神</a> </li>    
+	  <li class="nav-item" id="current"> <a class="nav-link text-light" href="hsr_home.html">崩坏：星穹铁道</a> </li>       
+    </ul>
+  </div>
+ </nav>
+<!--面包屑&二级导航-->
+<div class="container-fluid padding w3-animate-left" id="bread">
+	<a href="../index.html">首页</a> &gt; <a href="hsr_home.html">崩坏：星穹铁道</a> &gt; <span id="second-nav"><a href="map_heita.html"><button>场景介绍</button></a> | <button><strong>人物介绍</strong></button> </span>
+</div>
+<div class="container w3-animate-zoom" id="page-nav">         
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="sliverwolf.html"> &lt; </a></li>
+    <li class="page-item"><a class="page-link" href="clara.html">物理</a></li>
+	<li class="page-item"><a class="page-link" href="sliverwolf.html">量子</a></li>
+    <li class="page-item disabled current"><a class="page-link" href="luocha.html">虚数</a></li>
+    <li class="page-item"><a class="page-link" href="#"> &gt; </a></li>
+  </ul>
+</div>
+<!--页面主体内容-->
+<div class="w3-animate-left">
+<H1> 「这具棺柩非我之物。在下只是受人所托，将其遗体送回罗浮安置而已。」</H1>
+</div>
+<div class="container-fluid w3-animate-bottom">
+	<div class="row">
+		<div class="col-lg-6"> <!--左边列为折叠栏accordion-->
+		<div id="accordion">
+    	<div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne"> 角色故事 </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body"> <!--Bootstrap类m-0用于消除margin-->
+　　<p class="card-text m-0">金发俊雅的年轻人，背着巨大的棺椁。</p>
+　　<p class="card-text m-0">身为天外行商的他，不幸被卷入仙舟罗浮的星核危机。</p>
+    <p class="card-text m-0">一手精湛医术莫名有了用武之地。</p>    </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">行迹</a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body-dark">  
+		  <div id="skills"> <!--悬停效果-->
+			  <a href="#" onmouseover="showHide(1)"><img src="../images/luocha_basic.png" id="skillimage1"><img src="../images/luocha_basic_over.png" id="skillimageover1"></a>
+			  <a href="#" onmouseover="showHide(2)"><img src="../images/luocha_skill.png" id="skillimage2"><img src="../images/luocha_skill_over.png" id="skillimageover2"></a>
+			  <a href="#" onmouseover="showHide(3)"><img src="../images/luocha_ultimate.png" id="skillimage3"><img src="../images/luocha_ultimate_over.png" id="skillimageover3"></a> 
+			  <a href="#" onmouseover="showHide(4)"><img src="../images/luocha_talent.png" id="skillimage4"><img src="../images/luocha_talent_over.png" id="skillimageover4"></a></div>
+		<div id="skill1"><strong><big>黑渊的棘刺</big></strong> [单攻]
+<p>对指定敌方单体造成虚数属性伤害。</p></div>
+		<div id="skill2"><strong><big> 白花的祈望 </big></strong> [回复]
+<p>施放战技后立即为指定我方单体回复生命值，并使罗刹获得1层【白花之刻】。当我方任意单体当前生命值百分比小于等于50%时，罗刹会立即对其触发1次等同于战技的效果，此次触发不消耗战技点。该效果在2回合后可再次触发。</p></div>
+		<div id="skill3"><strong><big>  归葬的遂愿 </big></strong> [群攻]
+<p>解除敌方全体1个增益效果，并对敌方全体造成虚数属性伤害，同时使罗刹获得1层【白花之刻】。</p></div>
+		<div id="skill4"><strong><big>生息的轮转</big></strong> [回复]
+<p>当【白花之刻】达到2层时，罗刹会消耗全部【白花之刻】展开结界。处于结界中的任意敌方目标受到攻击后，施放攻击的我方目标立即回复生命值。结界效果持续2回合。当罗刹陷入无法战斗状态时，结界也会被解除。</p></div>
+		  </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">特征</a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">  
+                <p><b>名称 :</b>  罗刹</p>
+                <p><b>性别 :</b>  	男</p>
+                <p><b>稀有度 :</b>  五星</p>
+                <p><b>命途 :</b>  丰饶</p>
+                <p><b>战斗属性 :</b>  虚数</p>
+                <p><b>阵营 :</b>  	仙舟「罗浮」</p>
+              
+            </div>
+        </div>
+      </div>
+    </div></div>	
+          <div class="col-lg-6"> <!--右边为一个响应式图片（设置类为img-fluid）-->
+          <div class="image-right"><img src="../images/luocha.png" class="img-fluid"></div>
+          </div>
+   </div>
+  </div>
+  <footer class="bg-dark text-light text-center">
+      Game World. &copy;2020
+  </footer>
+  </body>
+  </html>

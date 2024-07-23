@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>游戏天地-崩坏：星穹铁道-人物介绍</title>
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" >
+<script src="../bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/pages.js"></script> <!--pages.js中包括必要的Javascript代码-->
+<link rel="stylesheet" href="../css/main.css"> <!--main.css中包括网站通用的CSS代码-->
+<link rel="stylesheet" href="../css/pages.css"> <!--pages.css中包括修饰具体页面用的CSS代码-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--主导航-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="../index.html"><img class="logo-responsive w3-animate-top" src="../images/logo.jpg" width="75px" height="75px" alt="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse w3-animate-top" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item"> <a class="nav-link text-light" href="gs_home.html">原神</a> </li>    
+	  <li class="nav-item" id="current"> <a class="nav-link text-light" href="hsr_home.html">崩坏：星穹铁道</a> </li>       
+    </ul>
+  </div>
+ </nav>
+<!--面包屑&二级导航-->
+<div class="container-fluid padding w3-animate-left" id="bread">
+	<a href="../index.html">首页</a> &gt; <a href="hsr_home.html">崩坏：星穹铁道</a> &gt; <span id="second-nav"><a href="map_heita.html"><button>场景介绍</button></a> | <button><strong>人物介绍</strong></button> </span>
+</div>
+<div class="container w3-animate-zoom" id="page-nav">         
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="clara.html"> &lt; </a></li>
+    <li class="page-item"><a class="page-link" href="clara.html">物理</a></li>
+	<li class="page-item disabled current"><a class="page-link" href="sliverwolf.html">量子</a></li>
+    <li class="page-item"><a class="page-link" href="luocha.html">虚数</a></li>
+    <li class="page-item"><a class="page-link" href="luocha.html"> &gt; </a></li>
+  </ul>
+</div>
+<!--页面主体内容-->
+<div class="w3-animate-left">
+<H1> 「这次能让我玩得开心点吗？」</H1>
+</div>
+<div class="container-fluid w3-animate-bottom">
+	<div class="row">
+		<div class="col-lg-6"> <!--左边列为折叠栏accordion-->
+		<div id="accordion">
+    	<div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne"> 角色故事 </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body"> <!--Bootstrap类m-0用于消除margin-->
+　　<p class="card-text m-0">将宇宙视为游戏的超级骇客。</p>
+　　<p class="card-text m-0">无论怎样棘手的防御系统，银狼都能轻松破解。她与「天才俱乐部」螺丝咕姆的数据攻防战，现已成为骇客界的传说。。</p>
+    <p class="card-text m-0">宇宙中还有多少亟待攻破的关卡？银狼对此十分期待。</p>    </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">行迹</a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body-dark">  
+		  <div id="skills"> <!--悬停效果-->
+			  <a href="#" onmouseover="showHide(1)"><img src="../images/silverwolf_basic.png" id="skillimage1"><img src="../images/silverwolf_basic_over.png" id="skillimageover1"></a>
+			  <a href="#" onmouseover="showHide(2)"><img src="../images/silverwolf_skill.png" id="skillimage2"><img src="../images/silverwolf_skill_over.png" id="skillimageover2"></a>
+			  <a href="#" onmouseover="showHide(3)"><img src="../images/sliverwolf_ultimate.png" id="skillimage3"><img src="../images/silverwolf_ultimate_over.png" id="skillimageover3"></a> 
+			  <a href="#" onmouseover="showHide(4)"><img src="../images/silverwolf_talent.png" id="skillimage4"><img src="../images/silverwolf_talent_over.png" id="skillimageover4"></a></div>
+		<div id="skill1"><strong><big>|系统警告|</big></strong> [单攻]
+<p>对指定敌方单体造成量子属性伤害。</p></div>
+		<div id="skill2"><strong><big>是否允许更改？</big></strong> [妨害]
+<p>有一定基础概率为指定敌方单体目标添加1个场上我方目标持有属性的弱点，且该弱点对应属性的抗性降低20%，持续2回合。若添加的是敌方目标原有属性的弱点，则不会触发对应属性的抗性降低效果。
+    单个敌方目标仅能被银狼添加1个弱点，当银狼对其再次添加弱点时，仅保留最新添加的弱点。
+    有100%的基础概率额外使该目标的全属性抗性降低，持续2回合。
+    对该目标造成量子属性伤害。</p></div>
+		<div id="skill3"><strong><big> |账号已封禁| </big></strong> [妨害]
+<p>有一定基础概率使敌方单体防御力降低，持续3回合，同时对该目标造成量子属性伤害。。</p></div>
+		<div id="skill4"><strong><big>等待程序响应… </big></strong> [妨害]
+<p>银狼能够制造：攻击力降低、防御力降低、速度降低3种【缺陷】。
+    银狼每次施放攻击后有一定的基础概率给受到攻击的敌方目标植入1个随机【缺陷】，持续3回合。。</p></div>
+		  </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">特征</a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">  
+                <p><b>名称 :</b>  银狼</p>
+                <p><b>性别 :</b>  女</p>
+                <p><b>稀有度 :</b>  五星</p>
+                <p><b>命途 :</b>  虚无</p>
+                <p><b>战斗属性 :</b>  	星核猎手</p>
+                <p><b>阵营 :</b>  	贝洛伯格</p>
+              
+            </div>
+        </div>
+      </div>
+    </div></div>	
+          <div class="col-lg-6"> <!--右边为一个响应式图片（设置类为img-fluid）-->
+          <div class="image-right"><img src="../images/sliverwolf.png" class="img-fluid"></div>
+          </div>
+   </div>
+  </div>
+  <footer class="bg-dark text-light text-center">
+      Game World. &copy;2020
+  </footer>
+  </body>
+  </html>
